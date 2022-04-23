@@ -1,0 +1,26 @@
+[27-Jul-2019 17:06:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Morning' in 'where clause'' in /home/blessed4/public_html/core/connection.php:24
+Stack trace:
+#0 /home/blessed4/public_html/core/connection.php(24): PDO->query('SELECT * FROM c...')
+#1 /home/blessed4/public_html/admin/pages/category.php(8): get_data('category', 'name', 'Morning')
+#2 /home/blessed4/public_html/admin/main.php(268): include('/home/blessed4/...')
+#3 {main}
+  thrown in /home/blessed4/public_html/core/connection.php on line 24
+[27-Jul-2019 17:57:12 UTC] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/blessed4/public_html/admin/pages/addpro.php on line 105
+[27-Jul-2019 17:58:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''category'' at line 1' in /home/blessed4/public_html/admin/pages/addpro.php:100
+Stack trace:
+#0 /home/blessed4/public_html/admin/pages/addpro.php(100): PDO->query('SELECT * FROM '...')
+#1 /home/blessed4/public_html/admin/main.php(192): include('/home/blessed4/...')
+#2 {main}
+  thrown in /home/blessed4/public_html/admin/pages/addpro.php on line 100
+[27-Jul-2019 17:59:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''category'' at line 1' in /home/blessed4/public_html/admin/pages/addpro.php:100
+Stack trace:
+#0 /home/blessed4/public_html/admin/pages/addpro.php(100): PDO->query('SELECT * FROM '...')
+#1 /home/blessed4/public_html/admin/main.php(192): include('/home/blessed4/...')
+#2 {main}
+  thrown in /home/blessed4/public_html/admin/pages/addpro.php on line 100
+[27-Jul-2019 18:29:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blessed4/public_html/admin/pages/addpro.php on line 76
+[27-Jul-2019 18:29:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blessed4/public_html/admin/pages/addpro.php on line 76
+[27-Jul-2019 18:40:12 UTC] PHP Warning:  move_uploaded_file(../products/27188d12fa2dc44c1e5514284076d2f61e7e2810.jpg): failed to open stream: No such file or directory in /home/blessed4/public_html/admin/pages/addpro.php on line 73
+[27-Jul-2019 18:40:12 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOAjW6d' to '../products/27188d12fa2dc44c1e5514284076d2f61e7e2810.jpg' in /home/blessed4/public_html/admin/pages/addpro.php on line 73
+[27-Jul-2019 18:45:39 UTC] PHP Warning:  move_uploaded_file(../../products/27188d12fa2dc44c1e5514284076d2f61e7e2810.jpg): failed to open stream: No such file or directory in /home/blessed4/public_html/admin/pages/addpro.php on line 73
+[27-Jul-2019 18:45:39 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpes4VXz' to '../../products/27188d12fa2dc44c1e5514284076d2f61e7e2810.jpg' in /home/blessed4/public_html/admin/pages/addpro.php on line 73
